@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="id" class="loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BLC - Belajar Interaktif</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+     <div class="liquid-intro" id="liquid-intro" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="liquid-text">BLC</div>
+  </div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="homepage.html"><span class="brand-name">Brilliant Learning Center</span><span class="dot">.</span></a>
+      <nav class="menu" aria-label="Utama">
+        <div class="menu-item">
+         
+        </div>
+        <div class="menu-item has-sub">
+          <button class="link" aria-haspopup="true" aria-expanded="false">Programs <span class="caret">▾</span></button>
+          <div class="dropdown" role="menu">
+            <a href="#program" role="menuitem">Creative Thinking</a>
+            <a href="#program" role="menuitem">Career Planning</a>
+            <a href="#program" role="menuitem">Public Speaking</a>
+            <a href="#program" role="menuitem">Coding Basics</a>
+          </div>
+        </div>
+      </nav>
+      <div class="actions">
+         <a href="aboutus/aboutus.html" class="yt">About us</a>
+       <a href="./pricing/pricing.html" class="yt">Pricing</a>
+         <a href="https://www.instagram.com/brilliant_blc" target="_blank" rel="noopener noreferrer" class="yt">Instagram</a>
+          <a href="https://www.youtube.com/@brilliantlearningcenter3346" target="_blank" rel="noopener noreferrer" class="yt">Youtube</a>
+        <button class="avatar" aria-label="Menu pengguna">
+          <span class="notif" aria-hidden="true"></span>
+        </button>
+        <button class="hamburger" aria-label="Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="tentang" data-animate>
+      <div class="hero-text">
+        <h1 class="title">Masa Depan Lebih Baik Untuk Anak Anda</h1>
+        <p class="subtitle">Kelas Bimble interaktif, proyek nyata, workshop, dan pengalaman lapangan yang menyenangkan.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="./daftar/daftar.html" target="_blank" rel="noopener noreferrer" class="yt">Daftar Sekarang</a>
+          <a class="btn ghost" href="#resources">Lihat Sumber</a>
+        </div>
+        <div class="stats">
+          <div class="stat" data-animate>
+            <span class="number" data-counter data-target="7500">0</span>
+            <span class="label">Siswa aktif</span>
+          </div>
+          <div class="stat" data-animate>
+            <span class="number" data-counter data-target="50">0</span>
+            <span class="label">Program tersedia</span>
+          </div>
+        </div>
+      </div>
+      <div class="photo left" aria-hidden="true">
+        <span class="circle-bg"></span>
+        <img class="cutout" src="https://img.icons8.com/3d-fluency/200/student-male.png" alt="Siswa belajar">
+      </div>
+      <div class="photo right" aria-hidden="true">
+        <span class="circle-bg"></span>
+        <img class="cutout" src="https://img.icons8.com/3d-fluency/200/student-female.png" alt="Siswa membaca">
+      </div>
+      <div class="floaters" aria-hidden="true">
+        <img class="floater f1" src="asset/BOOKS.png" alt="">
+        <img class="floater f2" src="asset/CHESS.png" alt="">
+        <img class="floater f3" src="asset/E LEARNING.png" alt="">
+        <img class="floater f4" src="asset/SPORT.png" alt="">
+        <img class="floater f5" src="asset/PHYSICS.png" alt="">
+        <img class="floater f6" src="asset/MUSIC.png" alt="">
+        <img class="floater f7" src="asset/OWL.png" alt="">
+        <img class="floater f8" src="asset/SEARCH.png" alt="">
+        <span class="deco ring d1"></span>
+        <span class="deco ring d2"></span>
+        <span class="deco pill d3"></span>
+        <span class="deco diamond d4"></span>
+        <span class="deco blob d5"></span>
+        <span class="deco ring d6"></span>
+        <span class="deco circle big d7"></span>
+        <span class="deco block d8"></span>
+        <span class="deco block tall d9"></span>
+        <span class="deco pill long d10"></span>
+        <span class="deco ring big d11"></span>
+      </div>
+    </section>
+
+    <section class="programs" id="program">
+      <div class="container">
+        <div class="programs-head" data-animate>
+          <div class="lead">Program</div>
+          <h2>Dirancang untuk mengembangkan potensi anak</h2>
+        </div>
+        <div class="glass-grid" data-animate>
+          <a class="glass-card" href="#">
+            <div class="icon">💡</div>
+            <div class="card-title">Pemikiran Kreatif</div>
+            <div class="card-link">Pelajari lebih lanjut</div>
+          </a>
+          <a class="glass-card highlight" href="#">
+            <div class="icon">🧭</div>
+            <div class="card-title">Perencanaan Karier</div>
+            <div class="card-link">Pelajari lebih lanjut</div>
+          </a>
+          <a class="glass-card" href="#">
+            <div class="icon">🗣️</div>
+            <div class="card-title">Public Speaking</div>
+            <div class="card-link">Pelajari lebih lanjut</div>
+          </a>
+          <a class="glass-card" href="#">
+            <div class="icon">💻</div>
+            <div class="card-title">Coding Dasar</div>
+            <div class="card-link">Pelajari lebih lanjut</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="resources" id="resources">
+      <div class="container">
+        <h2 data-animate>Sumber Belajar Kami</h2>
+        <p class="sub" data-animate>Kami kembangkan kepercayaan diri anak agar makin tajam</p>
+        <div class="carousel" data-animate>
+          <button class="carousel-control prev" aria-label="Sebelumnya">‹</button>
+          <div class="carousel-viewport">
+            <div class="carousel-track">
+              <div class="book-card">
+                <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=400&auto=format&fit=crop" alt="Buku 1">
+                <div class="book-title">Cat Kid Comic</div>
+              </div>
+              <div class="book-card">
+                <img src="https://images.unsplash.com/photo-1519682337058-a94d519337bc?q=80&w=400&auto=format&fit=crop" alt="Buku 2">
+                <div class="book-title">Wings of Fire</div>
+              </div>
+              <div class="book-card">
+                <img src="https://images.unsplash.com/photo-1518085250887-2f903c200fee?q=80&w=400&auto=format&fit=crop" alt="Buku 3">
+                <div class="book-title">Dog Man</div>
+              </div>
+              <div class="book-card">
+                <img src="https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=400&auto=format&fit=crop" alt="Buku 4">
+                <div class="book-title">Stories Wild</div>
+              </div>
+              <div class="book-card">
+                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=400&auto=format&fit=crop" alt="Buku 5">
+                <div class="book-title">Science Lab</div>
+              </div>
+              <div class="book-card">
+                <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?q=80&w=400&auto=format&fit=crop" alt="Buku 6">
+                <div class="book-title">Creative Brain</div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control next" aria-label="Berikutnya">›</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="benefits">
+    <div class="container two-col">
+      <div class="panel light" data-animate>
+        <div class="lead small">Traditional in‑person</div>
+        <h2>Belajar tatap muka mendorong siswa untuk</h2>
+        <ul class="checks">
+          <li>Fokus lebih lama dalam sesi</li>
+          <li>Berinteraksi dengan teman sebaya</li>
+          <li>Memahami konsep sulit dengan contoh nyata</li>
+        </ul>
+        <div class="illus">
+          <img src="asset/kelas.jpg" alt="Kelas" />
+        </div>
+      </div>
+      <div class="panel dark quiz" data-animate>
+        <h3>Anak akan diuji dengan kuis online</h3>
+        <p>Kuis interaktif membuat belajar lebih menyenangkan sekaligus menilai kemajuan.</p>
+        <div class="quiz-meta">
+          <span>🧠 10 soal</span>
+          <span>⏱️ 15 menit</span>
+          <span>🏅 Sertifikat</span>
+        </div>
+        <a href="#" class="btn primary">Coba Kuis</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="superstars">
+    <div class="container">
+      <div class="section-head">
+        <h2>Superstar Bulan Ini</h2>
+        <a href="#" class="btn ghost small">Lihat Semua</a>
+      </div>
+      <div class="stars-grid" data-animate>
+        <div class="star">
+          <img src="asset/avatar/Avatar Users2_1.png" alt="Siswa 1">
+          <div class="name">Jaydn Niles</div>
+          <div class="meta">9 th · Ethiopia</div>
+        </div>
+        <div class="star">
+          <img src="asset/avatar/Avatar Users2_10.png" alt="Siswa 2">
+          <div class="name">Lisa Ava</div>
+          <div class="meta">8 th · Colombia</div>
+        </div>
+        <div class="star">
+          <img src="asset/avatar/Avatar Users2_12.png" alt="Siswa 3">
+          <div class="name">Sophia Mia</div>
+          <div class="meta">9 th · Ireland</div>
+        </div>
+        <div class="star">
+          <img src="asset/avatar/Avatar Users2_18.png"Siswa 4">
+          <div class="name">Arga Putra</div>
+          <div class="meta">10 th · Indonesia</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tiles">
+    <div class="container tile-grid" data-animate>
+      <div class="tile">
+        <h3>Integrasi dengan platform favorit Anda</h3>
+        <p>Sinkron dengan alat yang sudah Anda gunakan setiap hari.</p>
+        <div class="logos">
+          <span class="logo">G</span>
+          <span class="logo">M</span>
+          <span class="logo">C</span>
+          <span class="logo">S</span>
+          <span class="logo">Z</span>
+        </div>
+        <a href="#" class="link-more">Lihat dukungan →</a>
+      </div>
+      <div class="tile">
+        <h3>Bagaimana kami tumbuh menjadi ed‑tech besar</h3>
+        <p>Baca perjalanan kami membangun pengalaman belajar menyenangkan untuk semua.</p>
+        <div class="logos">
+          <span class="logo">B</span>
+          <span class="logo">P</span>
+          <span class="logo">J</span>
+          <span class="logo">A</span>
+        </div>
+        <a href="#" class="link-more">Baca cerita →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-banner" data-animate>
+    <div class="container cta-wrap">
+      <div class="cta-text">
+        <h2>Masa Depan Lebih Baik Untuk Anak Anda</h2>
+        <p>Dapatkan e‑book gratis kami berisi tips belajar efektif di rumah.</p>
+        <form class="cta-form" onsubmit="return false;">
+          <input type="email" placeholder="Masukkan email">
+          <button class="btn glass">Dapatkan</button>
+        </form>
+      </div>
+      <div class="cta-visual">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1000&auto=format&fit=crop" alt="Siswa belajar bersama">
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© 2026 Brilliant Learning Center</div>
+      <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Kontak</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/69aa831071c7231c3a28fcc7/1jj10vug5';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+  <script src="homepage.js"></script>
+</body>
+</html>
