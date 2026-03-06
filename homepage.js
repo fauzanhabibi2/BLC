@@ -30,6 +30,7 @@ onReady(() => {
   setupCarousel();
   setupHeaderDropdown();
   setupMobileMenu();
+  setupBubbleMenu();
   setupFloatersPhysics();
   setupLiquidIntro();
 });
@@ -283,4 +284,20 @@ function setupMobileMenu() {
       toggle.setAttribute('aria-expanded', 'false');
     }
   });
+}
+
+function setupBubbleMenu() {
+  const btn = document.querySelector('.bubble-toggle');
+  const panel = document.querySelector('.bubble-panel');
+  if (!btn || !panel) return;
+  const toggle = (open) => {
+    btn.setAttribute('aria-expanded', String(open));
+    panel.classList.toggle('open', open);
+  };
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const open = btn.getAttribute('aria-expanded') !== 'true';
+    toggle(open);
+  });
+  document.addEventListener('click', () => toggle(false));
 }

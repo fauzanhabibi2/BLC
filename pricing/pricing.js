@@ -161,7 +161,8 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     const plans = document.querySelector('.plans')
     const rain = document.querySelector('.money-rain')
-    if (plans && rain) {
+    const isMobile = window.matchMedia('(max-width: 680px)').matches
+    if (plans && rain && !isMobile) {
       rain.classList.add('physics')
       const symbols = ['💵','💸','🪙']
       const bills = []
@@ -300,5 +301,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     updateTotals()
     updateWA()
+  }
+  const bubbleBtn = document.querySelector('.bubble-toggle')
+  const bubblePanel = document.querySelector('.bubble-panel')
+  if (bubbleBtn && bubblePanel) {
+    const toggle = (open) => {
+      bubbleBtn.setAttribute('aria-expanded', String(open))
+      bubblePanel.classList.toggle('open', open)
+    }
+    bubbleBtn.addEventListener('click', (e) => {
+      e.stopPropagation()
+      const open = bubbleBtn.getAttribute('aria-expanded') !== 'true'
+      toggle(open)
+    })
+    document.addEventListener('click', () => toggle(false))
   }
 })
