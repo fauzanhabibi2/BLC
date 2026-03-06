@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id" class="loading">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pendaftaran - Brilliant Learning Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="daftar.css">
+</head>
+<body>
+  <div class="bg-anim" aria-hidden="true"></div>
+  <div class="floaters floater-bg" aria-hidden="true">
+    <img class="floater f1" src="../asset/E LEARNING.png" alt="">
+    <img class="floater f2" src="../asset/Q AND A.png" alt="">
+    <img class="floater f3" src="../asset/MUSIC.png" alt="">
+    <img class="floater f4" src="../asset/ART.png" alt="">
+    <span class="deco ring d1"></span>
+    <span class="deco ring d2"></span>
+    <span class="deco pill d3"></span>
+    <span class="deco diamond d4"></span>
+    <span class="deco blob d5"></span>
+    <span class="deco ring big d6"></span>
+  </div>
+     <div class="liquid-intro" id="liquid-intro" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="liquid-text">BLC</div>
+  </div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="homepage.html"><span class="brand-name">Brilliant Learning Center</span><span class="dot">.</span></a>
+      <nav class="menu" aria-label="Utama">
+        <div class="menu-item">
+         
+        </div>
+        <div class="menu-item has-sub">
+          <button class="link" aria-haspopup="true" aria-expanded="false">Programs <span class="caret">▾</span></button>
+          <div class="dropdown" role="menu">
+            <a href="#program" role="menuitem">Creative Thinking</a>
+            <a href="#program" role="menuitem">Career Planning</a>
+            <a href="#program" role="menuitem">Public Speaking</a>
+            <a href="#program" role="menuitem">Coding Basics</a>
+          </div>
+        </div>
+      </nav>
+      <div class="actions">
+         <a href="../aboutus/aboutus.html" class="yt">About us</a>
+         <a href="../homepage.html" class="yt">Beranda</a>
+       <a href="./pricing/pricing.html" class="yt">Pricing</a>
+         <a href="https://www.instagram.com/brilliant_blc" target="_blank" rel="noopener noreferrer" class="yt">Instagram</a>
+          <a href="https://www.youtube.com/@brilliantlearningcenter3346" target="_blank" rel="noopener noreferrer" class="yt">Youtube</a>
+        <button class="avatar" aria-label="Menu pengguna">
+          <span class="notif" aria-hidden="true"></span>
+        </button>
+        <button class="hamburger" aria-label="Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="tentang" data-animate>
+      <div class="hero-text">
+        <h1 class="title">Daftar Program di Brilliant Learning Center</h1>
+        <p class="subtitle">Lengkapi formulir pendaftaran di bawah ini. Tim kami akan menghubungi Anda.</p>
+      </div>
+    </section>
+
+    <section class="register" id="daftar">
+      <div class="container">
+        <div class="form-card" data-animate>
+          <h2>Form Pendaftaran</h2>
+          <form id="form-daftar" action="#" method="post" data-sheet-url="https://script.google.com/macros/s/AKfycbzm9s1zo875h4aRaG1Blj_Y-Icf_R8ZkuFsscBtUDWOufxETMZ0b-baaRmSVfUhkFLh/exec">
+            <div class="form-grid">
+              <div class="field">
+                <label for="nama">Nama Lengkap</label>
+                <input id="nama" name="nama" type="text" required>
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+              </div>
+              <div class="field">
+                <label for="wa">Nomor WhatsApp</label>
+                <input id="wa" name="wa" type="tel" placeholder="08xxxxxxxxxx" required>
+              </div>
+              <div class="field">
+                <label for="lahir">Tanggal Lahir</label>
+                <input id="lahir" name="lahir" type="date">
+              </div>
+              <div class="field">
+                <label for="sekolah">Asal Sekolah</label>
+                <input id="sekolah" name="sekolah" type="text">
+              </div>
+              <div class="field">
+                <label for="kelas">Tingkat Kelas</label>
+                <select id="kelas" name="kelas">
+                  <option value="">Pilih</option>
+                  <option>SD</option>
+                  <option>SMP</option>
+                  <option>SMA</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="program">Program</label>
+                <select id="program" name="program" required>
+                  <option value="">Pilih Program</option>
+                  <option>Creative Thinking</option>
+                  <option>Career Planning</option>
+                  <option>Public Speaking</option>
+                  <option>Coding Basics</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="jadwal">Preferensi Jadwal</label>
+                <select id="jadwal" name="jadwal">
+                  <option value="">Pilih</option>
+                  <option>Weekday Sore</option>
+                  <option>Weekend Pagi</option>
+                  <option>Weekend Siang</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label for="catatan">Catatan Tambahan</label>
+                <textarea id="catatan" name="catatan" rows="4" placeholder="Kebutuhan khusus atau pertanyaan"></textarea>
+              </div>
+              <div class="field full check">
+                <label class="checkline modern">
+                  <input type="checkbox" id="konfirmasi" required>
+                  <span class="cb" aria-hidden="true"></span>
+                  <span class="check-text">Saya menyetujui pemrosesan data sesuai kebijakan privasi</span>
+                </label>
+              </div>
+            </div>
+            <div class="form-actions">
+              <button class="btn primary" type="submit">Kirim Pendaftaran</button>
+            </div>
+            <div class="form-status" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <div class="overlay" id="loading-overlay" hidden aria-hidden="true">
+    <div class="loader"></div>
+    <div class="loading-text">Mengirim...</div>
+  </div>
+  <div class="overlay success" id="success-overlay" hidden aria-hidden="true">
+    <div class="success-card">
+      <div class="check-anim" aria-hidden="true">
+        <svg class="check-svg" width="96" height="96" viewBox="0 0 24 24">
+          <circle class="ring" cx="12" cy="12" r="9" fill="none" stroke-width="2"></circle>
+          <path class="tick" d="M7 12.5l3 3 7-7" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+      </div>
+      <h3>Pendaftaran Berhasil</h3>
+      <p>Jika tidak ada laporan via WhatsApp, hubungi Customer Service.</p>
+      <div class="success-actions">
+        <a id="wa-btn" class="btn primary" href="#" target="_blank" rel="noopener">Hubungi CS via WhatsApp</a>
+        <button id="success-close" class="btn ghost">Tutup</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© 2026 Brilliant Learning Center</div>
+      <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Kontak</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="daftar.js"></script>
+</body>
+</html>
